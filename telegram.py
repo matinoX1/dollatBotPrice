@@ -11,7 +11,7 @@ async def send_price(price):
     message = (
         "💵 <b>قیمت دلار</b>\n\n"
         f"🇺🇸 قیمت تتر: <b>{price:,.0f}</b> تومان\n\n"
-        "🔄 بروزرسانی خودکار هر ۶ ساعت"
+        "🔄 بروزرسانی خودکار هر ۲ ساعت"
     )
 
     await bot.send_message(
